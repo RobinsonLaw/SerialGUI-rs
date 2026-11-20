@@ -5,7 +5,7 @@ pub struct BaudRate {
     pub numeric_repr: u32,
 }
 
-pub const BAUD_RATES: [BaudRate; 20] = [
+pub const BAUD_RATES: [BaudRate; 21] = [
     BaudRate {
         string_repr: "110",
         numeric_repr: 110,
@@ -77,6 +77,10 @@ pub const BAUD_RATES: [BaudRate; 20] = [
     BaudRate {
         string_repr: "1000000",
         numeric_repr: 1_000_000,
+    },
+    BaudRate {
+        string_repr: "1500000",
+        numeric_repr: 1500000,
     },
     BaudRate {
         string_repr: "2000000",
